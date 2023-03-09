@@ -38,9 +38,11 @@ export default function Home() {
     <div>
       <Head>
         <title>Recepy generator</title>
+        <link rel="icon" href="/salad.png" />
       </Head>
 
       <main className={styles.main}>
+      <img src="/salad.png" className={styles.icon} />
         <h3>Enter ingredients</h3>
         <form onSubmit={onSubmit}>
           <input
